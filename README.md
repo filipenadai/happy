@@ -1,4 +1,4 @@
-## Happy NLW#3
+<h2 align="center">Happy NLW#3</h2>
 
 ### Uma semana de aprendizado com conteúdo inédito disponibilizado pela Rocketseat. 
 ![](web/src/images/logo.svg)
