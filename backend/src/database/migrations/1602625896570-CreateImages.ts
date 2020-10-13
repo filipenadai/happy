@@ -22,6 +22,16 @@ export class CreateImages1602625896570 implements MigrationInterface {
           name: 'orphanage_id',
           type: 'integer',
         },
+        {
+          name: 'created_at',
+          type: 'timestamp',
+          default: 'now()',
+        },
+        {
+          name: 'updated_at',
+          type: 'timestamp',
+          default: 'now()',
+        },
       ],
       foreignKeys: [
         {
