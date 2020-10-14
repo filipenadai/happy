@@ -2,48 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-
-  aside {
-    position: fixed;
-    height: 100%;
-    padding: 32px 24px;
-    background: linear-gradient(329.54deg, #15b6d6 0%, #15d6d6 100%);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    img {
-      width: 48px;
-    }
-
-    footer {
-      > a,
-      > button {
-        width: 48px;
-        height: 48px;
-
-        border: 0;
-
-        background: #12afcb;
-        border-radius: 16px;
-
-        cursor: pointer;
-
-        transition: background-color 0.2s;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      a,
-      button:hover {
-        background: #17d6eb;
-      }
-    }
-  }
 `;
 
 export const Main = styled.main`
@@ -76,10 +34,37 @@ export const Main = styled.main`
         margin-bottom: 40px;
         padding-bottom: 24px;
       }
+
+      & + fieldset {
+        margin-top: 80px;
+      }
     }
 
-    & + fieldset {
-      margin-top: 80px;
+    > button {
+      margin-top: 64px;
+
+      width: 100%;
+      height: 64px;
+      border: 0;
+      cursor: pointer;
+      background: #3cdc8c;
+      border-radius: 20px;
+      color: #fff;
+      font-weight: 800;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      transition: background-color 0.2s;
+
+      svg {
+        margin-right: 16px;
+      }
+    }
+
+    > button:hover {
+      background: #36cf82;
     }
   }
 `;
@@ -160,33 +145,6 @@ export const InputBlock = styled.div`
     button:last-child {
       border-radius: 0 20px 20px 0;
       border-left: 0;
-    }
-
-    button .confirm-button {
-      margin-top: 64px;
-
-      width: 100%;
-      height: 64px;
-      border: 0;
-      cursor: pointer;
-      background: #3cdc8c;
-      border-radius: 20px;
-      color: #fff;
-      font-weight: 800;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      transition: background-color 0.2s;
-
-      svg {
-        margin-right: 16px;
-      }
-    }
-
-    button .confirm-button:hover {
-      background: #36cf82;
     }
   }
 `;
