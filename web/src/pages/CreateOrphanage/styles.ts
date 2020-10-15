@@ -124,7 +124,7 @@ export const InputBlock = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
 
-    > button {
+    button {
       height: 64px;
       background: #f5f8fa;
       border: 1px solid #d3e2e5;
