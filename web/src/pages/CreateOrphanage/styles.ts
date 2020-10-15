@@ -38,6 +38,12 @@ export const Main = styled.main`
       & + fieldset {
         margin-top: 80px;
       }
+
+      .leaflet-container {
+        border: 1px solid #d3e2e5;
+        border-radius: 20px;
+        margin-bottom: 40px;
+      }
     }
 
     > button {

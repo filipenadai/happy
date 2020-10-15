@@ -31,6 +31,7 @@ interface OrphanageParams {
 const Orphanage: React.FC = () => {
   const params = useParams<OrphanageParams>();
   const [orphanage, setOrphanage] = useState<Orphanage>();
+  const [imageOrphanageIndex, setImageOrphanageIndex] = useState(0);
 
   useEffect(() => {
     api.get(`orphanages/${params.id}`).then(response => {
@@ -46,12 +47,22 @@ const Orphanage: React.FC = () => {
 
       <main>
         <OrphanageDetail>
-          <img src={orphanage?.images[0].url} alt={`${orphanage?.name}`} />
+          <img
+            src={orphanage?.images[imageOrphanageIndex].url}
+            alt={`${orphanage?.name}`}
+          />
 
           <div className="images">
-            {orphanage.images.map(image => {
+            {orphanage.images.map((image, index) => {
               return (
-                <button key={image.id} className="active" type="button">
+                <button
+                  key={image.id}
+                  className={imageOrphanageIndex === index ? 'active' : ''}
+                  type="button"
+                  onClick={() => {
+                    setImageOrphanageIndex(index);
+                  }}
+                >
                   <img src={image.url} alt={orphanage.name} />
                 </button>
               );
@@ -83,7 +94,13 @@ const Orphanage: React.FC = () => {
               </Map>
 
               <footer>
-                <a href="klfmlds">Ver rotas no Google Maps</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={`https://www.google.com/maps/dir/?api=1&destination=${orphanage.latitude},${orphanage.longitude}`}
+                >
+                  Ver rotas no Google Maps
+                </a>
               </footer>
             </div>
 
