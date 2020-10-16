@@ -44,6 +44,35 @@ export const Main = styled.main`
         border-radius: 20px;
         margin-bottom: 40px;
       }
+
+      div.images-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 16px;
+
+        .new-image {
+          height: 96px;
+          background: #f5f8fa;
+          border: 1px dashed #96d2f0;
+          border-radius: 20px;
+          cursor: pointer;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        > input {
+          display: none;
+        }
+
+        img {
+          width: 100%;
+          height: 96px;
+          border-radius: 20px;
+          object-fit: cover;
+        }
+      }
     }
 
     > button {
@@ -138,7 +167,7 @@ export const InputBlock = styled.div`
       cursor: pointer;
     }
 
-    button .active {
+    button.active {
       background: #edfff6;
       border: 1px solid #a1e9c5;
       color: #37c77f;
