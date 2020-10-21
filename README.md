@@ -19,11 +19,19 @@ Adicionei algumas outras ferramentas para acelerar e melhorar meu código:
 - [x] Prettier
 - [x] Styled-Components (para fazer o CSS)
 
-Podemos ver algumas imagens de como está ficando a aplicação logo abaixo: 
+Podemos ver algumas imagens da aplicação logo abaixo: 
 
-<img src="https://media-exp1.licdn.com/dms/image/C4D22AQEpG-UkI0UEhg/feedshare-shrink_1280-alternative/0?e=1605139200&v=beta&t=lM3iXfLVtPbEhEtDc_cSQmtldTXpDsxPdp43y080WrU">
-<img src="https://media-exp1.licdn.com/dms/image/C4D22AQFBSHf138IZOQ/feedshare-shrink_1280-alternative/0?e=1605139200&v=beta&t=eP0faVFgKkTq0FUgCswLDo-osX6o50YQy36b5ZBv3rs">
-<img src="https://media-exp1.licdn.com/dms/image/C4D22AQFPZhkVokN-BA/feedshare-shrink_2048_1536-alternative/0?e=1606348800&v=beta&t=uH5P7s1pJuNi5S0VgXo8I6NZC-zn4QXS_gcu2n9pkwg">
+<h3>Landing<h3>  
+
+<img width="50%" src="https://media-exp1.licdn.com/dms/image/C4D22AQEpG-UkI0UEhg/feedshare-shrink_1280-alternative/0?e=1605139200&v=beta&t=lM3iXfLVtPbEhEtDc_cSQmtldTXpDsxPdp43y080WrU">
+
+<h3>Mapas<h3>  
+
+<img width="50%" src="https://media-exp1.licdn.com/dms/image/C4D22AQFBSHf138IZOQ/feedshare-shrink_1280-alternative/0?e=1605139200&v=beta&t=eP0faVFgKkTq0FUgCswLDo-osX6o50YQy36b5ZBv3rs">
+
+<h3>Detailhes do orfanato (Mobile)<h3>  
+
+<img width="50%" src="https://media-exp1.licdn.com/dms/image/C4D22AQFPZhkVokN-BA/feedshare-shrink_2048_1536-alternative/0?e=1606348800&v=beta&t=uH5P7s1pJuNi5S0VgXo8I6NZC-zn4QXS_gcu2n9pkwg">
 
 
 <h3 align="center">Desafios</h3>
