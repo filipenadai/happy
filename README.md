@@ -31,23 +31,23 @@ Podemos ver algumas imagens de como está ficando a aplicação logo abaixo:
 
 Foi proposto alguns desafios pela Rocketseat para levar esta aplicação para um próximo nivel, logo abaixo se encontram estes desafios e o meu progresso no desenvolvimento: 
 
-- [] Cadastro de usuários para acesso restrito.
-- [] Sistema de autenticação usando JWT.
-- [] Uma dashboard para usuários autenticados.
-- [] Recuperação de senhas.
-- [] Cadastro de orfanatos com pendência de aprovação por um usuário administrador.
-- [] Sucesso e cancelamento de cadastro.
-- [] Splash Screen no mobile.
-- [] Onboarding do usuário.
-- [] Localização real do usuário.
-- [] Cadastro em múltiplas etapas.
-- [] Logout da aplicação.
+- [ ] Cadastro de usuários para acesso restrito.
+- [ ] Sistema de autenticação usando JWT.
+- [ ] Uma dashboard para usuários autenticados.
+- [ ] Recuperação de senhas.
+- [ ] Cadastro de orfanatos com pendência de aprovação por um usuário administrador.
+- [ ] Sucesso e cancelamento de cadastro.
+- [ ] Splash Screen no mobile.
+- [ ] Onboarding do usuário.
+- [ ] Localização real do usuário.
+- [ ] Cadastro em múltiplas etapas.
+- [ ] Logout da aplicação.
 
 Outros desafios pessoais meus: 
 
-- [] Refatorar o código.
-- [] Utilizar o PostgreSQL.
-- [] Implementar um WebSocket.
+- [ ] Refatorar o código.
+- [ ] Utilizar o PostgreSQL.
+- [ ] Implementar um WebSocket.
 
 
 Para instalar e usar esta aplicação sigas os passos abaixo.
