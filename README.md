@@ -36,7 +36,9 @@ Foi proposto alguns desafios pela Rocketseat para levar esta aplicação para um
 - [ ] Uma dashboard para usuários autenticados.
 - [ ] Recuperação de senhas.
 - [ ] Cadastro de orfanatos com pendência de aprovação por um usuário administrador.
-- [ ] Sucesso e cancelamento de cadastro.
+- [ ] Sucesso e cancelamento de cadastro. (Mobile)
+- [x] Tela de sucesso. (Web)
+- [ ] Excluir orfanatos. (Web)
 - [ ] Splash Screen no mobile.
 - [ ] Onboarding do usuário.
 - [ ] Localização real do usuário.

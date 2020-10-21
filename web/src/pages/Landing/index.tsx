@@ -18,8 +18,9 @@ const Landing: React.FC = () => {
         </main>
 
         <div>
-          <strong>Rio Claro</strong>
-          <span>São Paulo</span>
+          <Link to="adsfsdoif">
+            Acesso Restrito
+          </Link>
         </div>
 
         <Link to="home">

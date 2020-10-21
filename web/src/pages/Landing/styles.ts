@@ -43,25 +43,45 @@ export const Content = styled.div`
     }
   }
 
-  div {
+  > div {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 0px;
 
     font-size: 24px;
     line-height: 34px;
 
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
 
-    text-align: right;
+    > a {
+      height: 56px;
+      width: 222px;
+      background: #12d4e0;
+      line-height: 30px;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
 
-    strong {
-      font-weight: 800;
+      border-radius: 20px;
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+
+      color: #fff
+
     }
+
+    a:hover {
+      color: #15c3d6;
+      background: #96feff;
+    }
+
   }
 
-  a {
+  > a {
     position: absolute;
     right: 0;
     bottom: 0;
