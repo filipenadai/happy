@@ -1,7 +1,6 @@
 <h2 align="center">Happy #NLW3</h2>
 
 ### Uma semana de aprendizado com conteúdo inédito disponibilizado pela Rocketseat. 
-![](web/src/images/logo.svg)
 
 A aplicação consiste em cadastrar e ver orfanatos da região, mostrando meios e horários de se fazer uma visita para as crianças que vivem nele. 
 Nessa aplicação será utilizado algumas ferramentas como: 
