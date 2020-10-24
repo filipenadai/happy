@@ -38,9 +38,11 @@ Podemos ver algumas imagens da aplicação logo abaixo:
 
 Foi proposto alguns desafios pela Rocketseat para levar esta aplicação para um próximo nivel, logo abaixo se encontram estes desafios e o meu progresso no desenvolvimento: 
 
-- [ ] Cadastro de usuários para acesso restrito.
+- [ ] Login de acesso restrito.
 - [ ] Sistema de autenticação usando JWT.
 - [ ] Uma dashboard para usuários autenticados.
+- [ ] Listagem de orfanatos cadastrados para o Administrador.
+- [ ] Listagem de orfanatos pendentes para o Administrador.
 - [ ] Recuperação de senhas.
 - [ ] Cadastro de orfanatos com pendência de aprovação por um usuário administrador.
 - [ ] Sucesso e cancelamento de cadastro. (Mobile)
