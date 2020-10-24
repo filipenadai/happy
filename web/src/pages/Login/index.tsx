@@ -1,16 +1,15 @@
 import React from 'react';
-
-import { Container, Branding, Logon } from './styles';
-
-import logoImg from '../../images/logo-login.svg'
 import { Link } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
+
+import logoImg from '../../images/logo-login.svg';
+import { Container, Branding, Logon } from './styles';
 
 const Login: React.FC = () => {
   return (
     <Container>
       <Branding>
-        <img src={logoImg} alt="Happy"/>
+        <img src={logoImg} alt="Happy" />
         <strong>Rio Claro</strong>
         <p>São Paulo</p>
       </Branding>
@@ -30,24 +29,15 @@ const Login: React.FC = () => {
             // value={name}
             // onChange={event => setName(event.target.value)}
           />
-          <div>
-            <label>
-              Lembrar-me
-              <input type="checkbox" name="memory"/>
-            </label>
-
-            <a href="/">
-              Esqueci minha senha!
-            </a>
-          </div>
+          <a href="/"> Esqueci minha senha! </a>
         </div>
       </Logon>
 
-      <Link to='/'>
+      <Link to="/">
         <FiArrowLeft size={20} color="#29b6d1" />
       </Link>
     </Container>
   );
-}
+};
 
 export default Login;

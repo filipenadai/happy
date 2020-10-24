@@ -7,6 +7,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #fff;
 
   > a {
     background: #ebf2f5;
@@ -29,12 +30,12 @@ export const Container = styled.div`
   > a:hover {
     background-color: #17d6eb;
   }
-
 `;
-export const Branding = styled.div`
+
+export const Branding = styled.section`
   height: 100%;
   background: #29b6d1;
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,22 +48,28 @@ export const Branding = styled.div`
     font-weight: 800;
     margin-top: 80px;
   }
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 `;
-export const Logon = styled.div`
+export const Logon = styled.section`
+  margin: 0 20px;
   height: 100%;
   background: #fff;
-  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-
   flex-direction: column;
+
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 
   > div {
     width: 100%;
-    max-width: 430px;
     display: flex;
-    align-items: center;
+    min-width: 430px;
     flex-direction: column;
 
     h1 {
@@ -83,7 +90,7 @@ export const Logon = styled.div`
       color: #5c8599;
     }
 
-   > input {
+    > input {
       height: 64px;
       padding: 0 16px;
 
@@ -92,37 +99,15 @@ export const Logon = styled.div`
       }
     }
 
-    > div {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: 30px;
-      width: 100%;
-
-      > label {
-        color: #5c8599;
-        display: flex;
-        flex: 1;
-        flex-direction: row-reverse;
-        align-items: center;
-        width: 100%;
-
-        input {
-          margin-right: 10px;
-          height: 20px;
-          width: 20px;
-        }
-
-      }
-
-      > a {
-        font-family: 'Nunito', sans-serif;
-        color: #5c8599;
-        text-decoration: none;
-      }
+    a {
+      margin-top: 20px;
+      text-decoration: none;
+      color: #5c8599;
+      transition: color 0.2s;
     }
 
-
+    a:hover {
+      color: #29b6d1;
+    }
   }
-
 `;

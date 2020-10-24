@@ -11,13 +11,10 @@ const SuccessCreateOrphanage: React.FC = () => {
       <Message>
         <h1>Ebaaa!</h1>
         <h3>
-          O cadastro deu certo e foi enviado
-          ao administrador para ser aprovado.
+          O cadastro deu certo e foi enviado ao administrador para ser aprovado.
           Agora é só esperar :)
         </h3>
-        <Link to="home">
-          Voltar para o mapa
-        </Link>
+        <Link to="home"> Voltar para o mapa </Link>
       </Message>
 
       <ImageSuccess>
@@ -25,6 +22,6 @@ const SuccessCreateOrphanage: React.FC = () => {
       </ImageSuccess>
     </Container>
   );
-}
+};
 
 export default SuccessCreateOrphanage;

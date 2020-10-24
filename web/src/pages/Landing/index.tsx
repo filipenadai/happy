@@ -18,9 +18,7 @@ const Landing: React.FC = () => {
         </main>
 
         <div>
-          <Link to="adsfsdoif">
-            Acesso Restrito
-          </Link>
+          <Link to="/login"> Acesso Restrito </Link>
         </div>
 
         <Link to="home">

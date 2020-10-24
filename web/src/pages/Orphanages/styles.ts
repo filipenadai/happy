@@ -38,6 +38,10 @@ export const Container = styled.div`
         font-weight: 800px;
       }
     }
+
+    @media (max-width: 800px) {
+      display: none;
+    }
   }
   > a {
     position: absolute;

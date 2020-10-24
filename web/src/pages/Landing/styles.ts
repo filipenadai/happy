@@ -18,7 +18,7 @@ export const Content = styled.div`
   max-width: 1100px;
 
   height: 100%;
-  max-height: 680px;
+  max-height: 600px;
 
   display: flex;
   flex-direction: column;
@@ -70,15 +70,13 @@ export const Content = styled.div`
       align-items: center;
       justify-content: center;
 
-      color: #fff
-
+      color: #fff;
     }
 
     a:hover {
       color: #15c3d6;
       background: #96feff;
     }
-
   }
 
   > a {
